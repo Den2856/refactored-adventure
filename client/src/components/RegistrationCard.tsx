@@ -9,11 +9,11 @@ import AuthLayout from "./layout/AuthLayout";
 export default function RegisterCard() {
   const [step, setStep] = useState<1 | 2>(1);
 
-  const [email, setEmail] = useState("der@der.com");
+  const [email, setEmail] = useState("");
   const [agree, setAgree] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const [name, setName] = useState("Дмитрий");
+  const [name, setName] = useState("");
   const [password, setPassword] = useState("");
 
   function isValidEmail(v: string) {
