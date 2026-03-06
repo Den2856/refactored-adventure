@@ -34,7 +34,6 @@ export async function createUser(body: CreateUserBody) {
 }
 
 
-
 export async function listUsers(): Promise<UserRow[]> {
   const res = await fetch(`${API}/users`);
   if (!res.ok) throw new Error(await parseError(res));
