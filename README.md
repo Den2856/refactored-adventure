@@ -53,6 +53,8 @@ DATABASE_URL="postgresql://USERNAME:PASSWORD@HOST:PORT/DATABASE_NAME?schema=publ
 
 ```bash npm i``` 
 
+Перейти на страницу со всеми пользователями можно нажав на иконку сверху справа 
+
 Запустите Клиент часть 
 
 ```bash npm run dev```
